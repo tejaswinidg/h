@@ -17,6 +17,8 @@ public loginPage(WebDriver driver) {
 @FindBy(name="uid")
 WebElement username1;
 
+
+
 @FindBy(xpath="//input[@name='password']")
 WebElement password1;
 @FindBy(name="btnLogin")
